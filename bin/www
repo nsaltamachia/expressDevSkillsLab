@@ -4,8 +4,8 @@
  * Module dependencies.
  */
 
-var app = require('../app');
-var debug = require('debug')('labs:server');
+var app = require('../server');
+var debug = require('debug')('expressDevToolsLab:server');
 var http = require('http');
 
 /**
